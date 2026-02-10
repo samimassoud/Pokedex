@@ -12,12 +12,12 @@ export function startREPL(state: State) {
         const commandName = input[0];
         const command = state.commands[commandName];
         if (!command) {
-            throw new Error("Unknown command");
+            console.log(`Unknown command`);
             state.readline.prompt();
             return;
         }
         try {
-            await command.callback(state);
+            await command.callback(state, input[1]);
         }
         catch (err) {
             console.log(`Something went wrong: ${(err as Error).message}`);

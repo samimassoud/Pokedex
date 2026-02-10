@@ -1,4 +1,3 @@
-import { PokeAPI } from "./pokeapi.js";
 import { State } from "./state.js";
 export async function commandMap(state: State) {
     const locations = await state.pokeAPI.fetchLocations(state.nextLocationPage ?? undefined);
