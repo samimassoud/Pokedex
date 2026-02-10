@@ -30,7 +30,8 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/samimassoud/Pokedex.git
 cd Pokedex
-npm install```
+npm install
+```
 
 ---
 
@@ -38,18 +39,21 @@ npm install```
 Run the project in development mode:
 
 ```bash
-npm run dev```
+npm run dev
+```
 
 Build and run:
 
 ```bash
 npm run build
-npm start```
+npm start
+```
 
 Run tests:
 
 ```bash
-npm test```
+npm test
+```
 
 ---
 
@@ -57,9 +61,18 @@ npm test```
 
 ```bash
 > npm run dev
-Enter a Pokemon name: charmander
-Result:
-{ "id": 4, "name": "charmander", "types": ["fire"], "stats": { "hp": 39, "attack": 52, "defense": 43 } }```
+Pokedex > help
+Welcome to the Pokedex!
+Usage:
+help: Displays a help message
+exit: Exit the pokedex
+map: List location areas
+mapb: List previous location areas
+explore: List pokemon encounters in a location
+catch: Catch a pokemon
+inspect: Inspect a pokemon in your pokedex
+pokedex: List all pokemon in your pokedex
+```
 
 ---
 
@@ -74,6 +87,16 @@ Result:
 
 ## References
 
+- [PokéAPI](https://pokeapi.co)
+- [PokéAPI Documentation](https://pokeapi.co/docs/v2)
+- [pokenode-ts Wrapper](https://github.com/Gabb-c/pokenode-ts)
+- [Vitest Testing Framework](https://vitest.dev/api)
+- [Node.js Readline Documentation](https://nodejs.org/api/readline.html)
+- [Boot.dev Backend Roadmap](https://www.boot.dev/lessons/a634e1eb-5c90-4463-8164-484def656040)
+- [Test-driven Development (Wikipedia)](https://en.wikipedia.org/wiki/Test-driven_development)
+- [TypeScript Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
+- [RFC 3986: URI Generic Syntax](https://www.rfc-editor.org/rfc/rfc3986)
+- [Math.random() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 ---
 
